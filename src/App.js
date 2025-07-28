@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as HashRouter, Routes, Route } from 'react-router-dom';
 import LoginPage from './loginpage.js';
 import CaretakerView from './caretaker.js'; // new page component
 import MedCheck from './med_check.js';
