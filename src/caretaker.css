@@ -1,0 +1,33 @@
+.header-section{
+    padding: 1rem;
+    font-family: sans-serif;
+    margin-top: 2rem;
+    margin:2rem 4rem;
+    border: solid 2px rgba(0, 128, 0, 0.679);
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+.header-item {
+    margin-bottom: 0.5rem;
+    color: darkgreen;
+}
+.icons{
+    border-radius: 8px;
+    color:white;
+    background-color: green;
+    font-weight: normal;
+    margin:0;
+}
+.tab-items{
+    font-display: underline;
+    display: flex;
+    justify-content: space-evenly;
+     
+}
+.active-tab {
+  background-color: rgba(2, 123, 2, 0.834);
+  border: 2px solid rgba(0, 0, 0, 0.315);
+  font-weight: bold;
+  color: #fff;
+}
+

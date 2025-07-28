@@ -1,0 +1,85 @@
+
+.medication-wrapper {
+  margin-top: 2rem;
+  background-color: #e1e9f054;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 50%;
+}
+
+.add-button{
+  background-color: green;
+  margin-left: 2rem;
+  cursor:pointer;
+  padding:9px 18px;
+  font-size: large;
+  color:white;
+  border-radius: 5px;
+  border: none;
+}
+
+.add-button:hover{
+  background-color: rgb(3, 146, 3);
+  cursor:pointer;
+}
+
+input[type="text"]{
+  font-size: 1rem;
+  padding: 8px;
+  border: 2px solid green;
+  border-radius: 8px;
+  color:rgba(0, 0, 0, 0.826);
+  margin-bottom: 3px;
+}
+ol{
+  padding:20px;
+  text-align: left;
+  margin: 25px;
+  color:darkgreen;
+  font-size: 1.1rem;
+  
+}
+.time-span {
+  padding: 0.5rem 1rem;
+  background-color: rgb(146, 207, 146);
+  color: #161515a4;
+  font-weight: bold;
+  margin-left:2rem;
+  border-radius: 3px;
+  margin-bottom: 3px;
+}
+
+.mark-button{
+  padding: 0.5rem 1rem;
+  background-color: green;
+  color: #fff;
+  cursor:pointer;
+  margin-left: 18px;
+  border-radius: 5px;
+  margin-bottom: 3px;
+}
+.mark-button:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+.medication-table {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* vertical spacing between rows */
+  margin-top:5px;
+}
+
+.medication-row {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 0;
+}
+
+.column {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* spacing between checkbox/text/icon */
+  flex: 1; /* equal width for all columns */
+}
+

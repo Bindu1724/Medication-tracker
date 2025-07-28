@@ -1,0 +1,14 @@
+.cal-container{
+    background-color: #e1e9f054;
+    margin-top:2rem;
+    border-radius: 8px;
+    
+}
+.cal-icon{
+    display:flex;
+    justify-content: center;
+    
+}
+.calendar{
+    margin-left: 11rem;
+}
