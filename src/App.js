@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import LoginPage from './loginpage.js';
 import CaretakerView from './caretaker.js'; // new page component
 import MedCheck from './med_check.js';
@@ -8,7 +8,7 @@ import Header from './header.js'; // import the header component
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<MedCheck />} />
         <Route path="/patient/login" element={<LoginPage />} />
@@ -20,7 +20,7 @@ function App() {
         <Route path="/caretaker" element={<> <Header /> <CaretakerView /> </>} />
         <Route path="/patient" element={<> <Header /> <PatientView /> </>} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
